@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Livraria</title>
+        <link resl="stylesheet" href="/css/styles.css"></link>
+    </head>
+    <body>
+        <img src="/images/logo.jpg" alt="logo"></img>
+        <h1>Bem Vindos à Livraria</h1>
+        <ul>
+            <% livros.forEach(livro => { %>
+                <li><%= livro.titulo %></li>
+            <% }); %>
+        </ul>
+    </body>
+</html>
